@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0e0c09"/>
+      <stop offset="100%" stop-color="#100d08"/>
+    </linearGradient>
+    <radialGradient id="glow-left" cx="0.15" cy="0.5" r="0.45">
+      <stop offset="0%" stop-color="#c5a059" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#c5a059" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow-right" cx="0.88" cy="0.3" r="0.38">
+      <stop offset="0%" stop-color="#c5a059" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#c5a059" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="gold-text" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#907030"/>
+      <stop offset="45%" stop-color="#c5a059"/>
+      <stop offset="100%" stop-color="#d4b06a"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(197,160,89,0.07)" stroke-width="0.5"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="300" fill="url(#bg)"/>
+  <rect width="1200" height="300" fill="url(#grid)"/>
+  <rect width="1200" height="300" fill="url(#glow-left)"/>
+  <rect width="1200" height="300" fill="url(#glow-right)"/>
+
+  <!-- Border lines -->
+  <line x1="0" y1="1"   x2="1200" y2="1"   stroke="rgba(197,160,89,0.22)" stroke-width="1"/>
+  <line x1="0" y1="299" x2="1200" y2="299" stroke="rgba(197,160,89,0.22)" stroke-width="1"/>
+
+  <!-- Left decorative bar -->
+  <rect x="72" y="36" width="1" height="228" fill="rgba(197,160,89,0.14)"/>
+
+  <!-- Logo image (the real OpenCognit.svg embedded via reference) -->
+  <image href="/opencognit-logo.svg" x="100" y="75" width="150" height="150"/>
+
+  <!-- Wordmark -->
+  <text x="290" y="152" font-family="Georgia, 'Times New Roman', serif" font-size="72" font-weight="700" letter-spacing="-2" fill="url(#gold-text)">Open</text>
+  <text x="494" y="152" font-family="Georgia, 'Times New Roman', serif" font-size="72" font-weight="400" letter-spacing="-2" fill="#d4b06a">Cognit</text>
+
+  <!-- Tagline -->
+  <text x="292" y="184" font-family="'Courier New', monospace" font-size="11.5" letter-spacing="4" fill="rgba(197,160,89,0.42)">AUTONOMOUS AGENT ORCHESTRATION</text>
+
+  <!-- Separator -->
+  <line x1="292" y1="198" x2="730" y2="198" stroke="rgba(197,160,89,0.15)" stroke-width="1"/>
+
+  <!-- Right badges -->
+  <g transform="translate(850, 100)">
+    <rect x="0" y="0"  width="118" height="28" fill="rgba(197,160,89,0.07)" stroke="rgba(197,160,89,0.25)" stroke-width="1"/>
+    <text x="59" y="18.5" font-family="'Courier New', monospace" font-size="10" letter-spacing="2.5" fill="#c5a059" text-anchor="middle" font-weight="700">OPEN SOURCE</text>
+
+    <rect x="0" y="38" width="118" height="28" fill="rgba(197,160,89,0.04)" stroke="rgba(197,160,89,0.16)" stroke-width="1"/>
+    <text x="59" y="56.5" font-family="'Courier New', monospace" font-size="10" letter-spacing="2.5" fill="rgba(197,160,89,0.72)" text-anchor="middle" font-weight="700">SELF-HOSTED</text>
+
+    <rect x="0" y="76" width="118" height="28" fill="rgba(197,160,89,0.04)" stroke="rgba(197,160,89,0.16)" stroke-width="1"/>
+    <text x="59" y="94.5" font-family="'Courier New', monospace" font-size="10" letter-spacing="2.5" fill="rgba(197,160,89,0.72)" text-anchor="middle" font-weight="700">ZERO HUMAN</text>
+
+    <!-- Accent dots -->
+    <circle cx="-12" cy="14"  r="2.5" fill="#c5a059" opacity="0.7"/>
+    <circle cx="-12" cy="52"  r="2"   fill="#c5a059" opacity="0.45"/>
+    <circle cx="-12" cy="90"  r="2"   fill="#c5a059" opacity="0.45"/>
+  </g>
+
+  <!-- Far-right vertical label -->
+  <text x="1165" y="196" font-family="'Courier New', monospace" font-size="9" letter-spacing="5" fill="rgba(197,160,89,0.16)" text-anchor="middle" transform="rotate(-90 1165 196)">DOCUMENTATION</text>
+</svg>

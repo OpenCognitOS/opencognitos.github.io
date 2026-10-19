@@ -1,0 +1,1 @@
+(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,20598,e=>{"use strict";var t=e.i(18050);e.s(["GlobalBackground",0,function(){return(0,t.jsx)("div",{className:"fixed inset-0 z-0 pointer-events-none",style:{background:"#050608"}})}])}]);
