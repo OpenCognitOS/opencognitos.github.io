@@ -1,7 +1,7 @@
 (globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,88880,e=>{"use strict";var r=e.i(18050),t=e.i(84116);let n=`Timo Reitenbach
 Eisensteinfeld 6c
 56368 Katzenelnbogen
-E-Mail: TimoReit@protonmail.com`,i={back:"Zur Startseite",title:"Widerrufsbelehrung",updated:"Stand: Oktober 2026",note:"Verbrauchern im Sinne des § 13 BGB steht ein Widerrufsrecht zu.",sections:[{heading:"Widerrufsrecht",body:`Sie haben das Recht, binnen vierzehn Tagen ohne Angabe von Gr\xfcnden diesen Vertrag zu widerrufen. Die Widerrufsfrist betr\xe4gt vierzehn Tage ab dem Tag des Vertragsabschlusses.
+E-Mail: support@opencognit.com`,i={back:"Zur Startseite",title:"Widerrufsbelehrung",updated:"Stand: Oktober 2026",note:"Verbrauchern im Sinne des § 13 BGB steht ein Widerrufsrecht zu.",sections:[{heading:"Widerrufsrecht",body:`Sie haben das Recht, binnen vierzehn Tagen ohne Angabe von Gr\xfcnden diesen Vertrag zu widerrufen. Die Widerrufsfrist betr\xe4gt vierzehn Tage ab dem Tag des Vertragsabschlusses.
 
 Um Ihr Widerrufsrecht auszu\xfcben, m\xfcssen Sie uns
 
