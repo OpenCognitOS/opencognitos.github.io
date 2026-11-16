@@ -1,7 +1,15 @@
 {
   "version": 1,
-  "asOf": "2026-10-24",
+  "asOf": "2026-11-16",
   "prices": [
+    {
+      "group": "claude",
+      "match": "fable-5-2|mythos-5-2",
+      "label": "Claude Fable/Mythos 5.2",
+      "input": 8,
+      "output": 40,
+      "cacheReadFactor": 0.025
+    },
     {
       "group": "claude",
       "match": "fable-5-1|mythos-5-1",
