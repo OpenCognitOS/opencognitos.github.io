@@ -4,4 +4,4 @@
 :HL["/_next/static/chunks/3nu919e5noy94.css","style"]
 :HL["/_next/static/chunks/02he05upsljjg.css","style"]
 :HL["/_next/static/chunks/19rhlcx2srev9.css","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"kanal","param":{"type":"d","key":"fb","siblings":["brain","claude-code","codex","de","docs","gemini-cli","guardrails","hermes","impressum","kimi-code","me","merch","orchestrator","privacy","terms","usage","vintage","widerruf"]},"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}},"staleTime":300,"buildId":"OK8AMmmUBX_a2ClMmp5xJ"}
+0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"kanal","param":{"type":"d","key":"fb","siblings":["brain","claude-code","codex","de","docs","gemini-cli","guardrails","hermes","impressum","kimi-code","me","merch","orchestrator","privacy","terms","usage","vintage","widerruf"]},"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}},"staleTime":300,"buildId":"v0MEDo5RCBTpjGiK9XRjd"}
